@@ -1,10 +1,10 @@
 import React from 'react'
 
 function PersonalAuthor() {
-    return(
+    return (
         <>
             <form action="">
-                <h3>Lecture, Seminar</h3>
+                <h3>Personal Author</h3>
 
                 <label htmlFor="">does the website have an author</label> <br />
                 <label htmlFor=""> yes</label>

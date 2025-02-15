@@ -1,25 +1,25 @@
 import React from 'react'
 
-function Twitter() {
+function X() {
     return(
         <>
             <form action="">
 
-                <h3>Facebook</h3>
+                <h3>Twitter now called X</h3>
 
-                <label htmlFor="">Contributor(s)</label> <br />
+                <label htmlFor="">Contributor</label> <br />
                 <input type="text" /><br />
 
-                <label htmlFor="">Short description of post</label> <br />
+                <label htmlFor="">Add Contributor</label> <br />
+                <div>+</div><br />
+
+                <label htmlFor="">Short description of X post</label> <br />
                 <input type="text" /> <br />
 
-                <label htmlFor="">The name of the facebook page</label> <br />
-                <input type="text" /><br />
-
-                <label htmlFor="">Date of post</label><br />
+                <label htmlFor="">Date of X post</label><br />
                 <input type="date" /><br />
 
-                <label htmlFor="">URL/web address of facebook page</label><br />
+                <label htmlFor="">URL/web address of X post</label><br />
                 <input type="text" /><br />
 
                 <label htmlFor="">Date you accessed the post</label> <br />
@@ -35,4 +35,4 @@ function Twitter() {
     )
 }
 
-export default Twitter;
+export default X;
